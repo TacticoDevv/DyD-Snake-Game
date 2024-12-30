@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"command": "npm start",
+				"name": "Run npm start",
+				"request": "launch",
+				"type": "node-terminal"
+			},
+			{
+				"name": "Python Debugger: Python File",
+				"type": "debugpy",
+				"request": "launch",
+				"program": "${file}"
+			}
+		]
+	}
+}
